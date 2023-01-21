@@ -15,6 +15,9 @@
 		EE4D19BD297BE2CD00B6255E /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4D19BA297BE2CD00B6255E /* LexendDeca-SemiBold.ttf */; };
 		EE4D19BE297BE2CD00B6255E /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE4D19BB297BE2CD00B6255E /* LexendDeca-Regular.ttf */; };
 		EE4D19C2297BE86C00B6255E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D19C1297BE86C00B6255E /* Fonts.swift */; };
+		EE4D19C5297BED7E00B6255E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D19C4297BED7E00B6255E /* TabBar.swift */; };
+		EE4D19C7297BFCAE00B6255E /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4D19C6297BFCAE00B6255E /* TabBarButton.swift */; };
+		EE4D19C9297C001300B6255E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE4D19C8297C001300B6255E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		EE4D19BB297BE2CD00B6255E /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
 		EE4D19BF297BE31700B6255E /* Chat-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Chat-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EE4D19C1297BE86C00B6255E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		EE4D19C4297BED7E00B6255E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EE4D19C6297BFCAE00B6255E /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		EE4D19C8297C001300B6255E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				EE4D19B5297BDF6900B6255E /* Utilities */,
 				EE4D19C0297BE85C00B6255E /* Helpers */,
 				EE4D19B6297BDF7B00B6255E /* Fonts */,
+				EE4D19C8297C001300B6255E /* GoogleService-Info.plist */,
 				EE4D19A5297BDF2000B6255E /* Assets.xcassets */,
 				EE4D19A7297BDF2000B6255E /* Chat_App.entitlements */,
 				EE4D19A8297BDF2000B6255E /* Preview Content */,
@@ -96,6 +103,7 @@
 		EE4D19B1297BDF4C00B6255E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EE4D19C3297BED6000B6255E /* Custom Tab Bar */,
 				EE4D19B7297BDFDF00B6255E /* RootView.swift */,
 			);
 			path = Views;
@@ -145,6 +153,15 @@
 				EE4D19C1297BE86C00B6255E /* Fonts.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EE4D19C3297BED6000B6255E /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				EE4D19C4297BED7E00B6255E /* TabBar.swift */,
+				EE4D19C6297BFCAE00B6255E /* TabBarButton.swift */,
+			);
+			path = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +227,7 @@
 				EE4D19AA297BDF2000B6255E /* Preview Assets.xcassets in Resources */,
 				EE4D19A6297BDF2000B6255E /* Assets.xcassets in Resources */,
 				EE4D19BC297BE2CD00B6255E /* LexendDeca-Bold.ttf in Resources */,
+				EE4D19C9297C001300B6255E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +241,8 @@
 				EE4D19B8297BDFDF00B6255E /* RootView.swift in Sources */,
 				EE4D19C2297BE86C00B6255E /* Fonts.swift in Sources */,
 				EE4D19A2297BDF1F00B6255E /* Chat_AppApp.swift in Sources */,
+				EE4D19C7297BFCAE00B6255E /* TabBarButton.swift in Sources */,
+				EE4D19C5297BED7E00B6255E /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

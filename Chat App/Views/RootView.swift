@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct RootView: View {
+    @State var selectedTab: Tabs = .chats
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .padding()
+        VStack {
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                .padding()
+            Spacer()
+            TabBar(selectedTab: $selectedTab)
+        }
     }
 
 }
